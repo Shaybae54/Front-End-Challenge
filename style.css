@@ -1,0 +1,51 @@
+.table1,td {
+  border-top: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+  width: 360px;
+}
+
+p {
+font-size: 1.25em;
+font-style: bold;
+color: white;
+text-transform: uppercase;
+padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #303030;
+
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  background-color: #303030;
+}
+
+img {
+  display: inline-block;
+  width: 360px;
+  height: auto;
+}
+
+tr {
+  text-align: left;
+}
+
+td {
+  padding-top: 10px;
+padding-bottom:10px;
+}
+
+th {
+  background-color: silver;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 800px;
+}
+
+td {
+  line-height: -10px;
+
+}
+<--Ask about how to increase line height and sizing-->
