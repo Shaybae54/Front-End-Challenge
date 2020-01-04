@@ -1,8 +1,9 @@
 .table1,td {
   border-top: 1px solid black;
   font-family: 'Roboto', sans-serif;
-  width: 360px;
+  width: 375px;
 }
+
 
 p {
 font-size: 1.25em;
@@ -24,8 +25,9 @@ h3 {
 
 img {
   display: inline-block;
-  width: 360px;
+  width: 375px;
   height: auto;
+  margin-bottom: -12px;
 }
 
 tr {
@@ -35,17 +37,21 @@ tr {
 td {
   padding-top: 10px;
 padding-bottom:10px;
+padding-left: 10px;
 }
 
-th {
+.table-header, th {
   background-color: silver;
-  padding-bottom: 10px;
-  font-size: 18px;
-  font-weight: 800px;
+  padding-left: 10px;
+
 }
 
 td {
   line-height: -10px;
-
 }
-<--Ask about how to increase line height and sizing-->
+
+/* unvisited link*/
+
+tr:hover {
+  background-color: #1DB523;
+}
