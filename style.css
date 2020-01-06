@@ -4,7 +4,6 @@
   width: 375px;
 }
 
-
 p {
 font-size: 1.25em;
 font-style: bold;
@@ -54,4 +53,8 @@ td {
 
 tr:hover {
   background-color: #1DB523;
+}
+
+.out-of-service td {
+  padding-left: -10px;
 }
