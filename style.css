@@ -17,18 +17,27 @@ padding-top: 12px;
 
 }
 
+/* Bus Stop*/
 h3 {
   font-family: 'Roboto', sans-serif;
-  background-color: #303030;
-}
+  font-size: 1.125em;
+  background-color: #1DB523;
+  color: white;
+  line-height: 2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  width: 375px;
 
+}
+/* Status Bar */
 img {
   display: inline-block;
   width: 375px;
   height: auto;
   margin-bottom: -12px;
 }
-
+/* Bus listing */
 tr {
   text-align: left;
 }
