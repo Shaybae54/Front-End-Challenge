@@ -1,9 +1,9 @@
-.table1,td {
-  border-top: 1px solid black;
+body{
   font-family: 'Roboto', sans-serif;
-  width: 375px;
 }
 
+
+/*text style for section headers*/
 p {
 font-size: 1.25em;
 font-style: bold;
@@ -14,56 +14,190 @@ padding-top: 12px;
   padding-left: 10px;
   text-align: left;
   background-color: #303030;
-
 }
 
-/* Bus Stop*/
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.125em;
-  background-color: #1DB523;
-  color: white;
-  line-height: 2em;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-align: center;
+/*map directions*/
+h4 {
+  margin-top: -20px;
   width: 375px;
-
+  height: 375px;
 }
+
 /* Status Bar */
 img {
   display: inline-block;
-  width: 375px;
+  width: inherit;
   height: auto;
   margin-bottom: -12px;
+}
+
+.status {
+  width:375px;
 }
 /* Bus listing */
 tr {
   text-align: left;
 }
 
-td {
-  padding-top: 10px;
-padding-bottom:10px;
-padding-left: 10px;
+
+/* action when mouse hovers*/
+.boxcontent:hover {
+  background-color: #E2E2E2;
+  width: 375px;
 }
 
-.table-header, th {
-  background-color: silver;
+/* bus arrivals to section*/
+.Bus_Arrivals {
+  background-color: #303030;
+  color: white;
+  font-size: 18px;
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  width: 365px;
+  margin-top: -5px;
+}
+
+/* bustop at Washington and State*/
+.Bus_Stop {
+  background-color: #7C7C7C;
+  font-size: 18px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 365px;
 
 }
 
-td {
-  line-height: -10px;
+
+/* bus numbers*/
+.circle {
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  background: #303030;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+padding-bottom: -20px;
 }
 
-/* unvisited link*/
+/* Bus names*/
+ h1 {
+   color: #303030;
+   display: inline;
+   width: 375px;
+   font-weight: 900;
+   padding-top:25px;
+   padding-left: 10px;
+   margin-bottom:-10px;
+ }
 
-tr:hover {
-  background-color: #1DB523;
+
+/*slight shadow under each bus section*/
+.direction {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width:375px;
 }
 
-.out-of-service td {
-  padding-left: -10px;
+/* Out of Service Section - Gray to indicate out of service */
+.serviceout p
+{
+  background-color:#7C7C7C;
+
+}
+
+.serviceout
+{
+  color: #7C7C7C;
+}
+
+.serviceout h1{
+  color: #7c7c7c;
+  font-style: italic;
+}
+
+.serviceout .circle {
+  background: #7C7C7C;
+}
+
+/* Directional headers for East, North, South as well as Reroute and OTS*/
+p
+{
+  font-size:.875em;
+  line-height:1em;
+  text-transform:capitalize;
+}
+
+/* Bus frequency times under bus names*/
+
+h3 {
+  padding-left: 65px;
+  margin-top: -15px;
+  font-size:12px;
+  font-weight:200;
+  font-style:italic;
+  padding-bottom: 10px;
+}
+
+/* Bus arrival minutes with real time tracking*/
+.minutes {
+  display: inline-block;
+  padding-top:30px;
+  float:right;
+  padding-right:15px;
+  font-size:18px;
+  font-weight: 800;
+  color:#303030;
+}
+/* Bus arrival times without real-time tracking (estimates)*/
+.minutes2 {
+  display: inline-block;
+  padding-top:30px;
+  float:right;
+  padding-right:50px;
+  font-size:18px;
+  font-weight: 800;
+  
+}
+
+.timecolor {
+  color: #F00E0E;
+}
+/*tracking icon*/
+.tracking
+ {
+   float:right;
+   padding-right:10px;
+   width:25px;
+   height:25px;
+ }
+
+/* chevron right facing advising user to click for more info*/
+.toright
+{
+  float: right;
+  display: inline;
+  margin-top:-36px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reroute p {
+  background-color: #F00E0E;
+}
+.red, .reroute
+{
+  color:#F00E0E;
+}
+
+.red h1 {
+  color:#F00E0E;
 }
