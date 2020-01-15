@@ -1,3 +1,7 @@
+.wrapper {
+  margin: 0 auto;
+  width: 375px;
+}
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -47,7 +51,7 @@ tr {
 }
 
 /* bus arrivals to section*/
-.Bus_Arrivals {
+h5 {
   background-color: #303030;
   color: white;
   font-size: 18px;
@@ -60,7 +64,7 @@ tr {
 }
 
 /* bustop at Washington and State*/
-.Bus_Stop {
+h6 {
   background-color: #7C7C7C;
   font-size: 18px;
   color: white;
@@ -98,6 +102,7 @@ padding-bottom: -20px;
    padding-top:25px;
    padding-left: 10px;
    margin-bottom:-10px;
+   vertical-align: middle;
  }
 
 
@@ -150,23 +155,25 @@ h3 {
 /* Bus arrival minutes with real time tracking*/
 .minutes {
   display: inline-block;
-  padding-top:30px;
+  padding-top:25px;
   float:right;
   padding-right:15px;
   font-size:18px;
   font-weight: 800;
   color:#303030;
+
 }
 /* Bus arrival times without real-time tracking (estimates)*/
 .minutes2 {
   display: inline-block;
-  padding-top:30px;
+  padding-top:25px;
   float:right;
   padding-right:50px;
   font-size:18px;
   font-weight: 800;
-  
+
 }
+
 
 .timecolor {
   color: #F00E0E;
@@ -187,7 +194,7 @@ h3 {
   display: inline;
   margin-top:-36px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 25px;
 }
 
 .reroute p {
@@ -200,4 +207,43 @@ h3 {
 
 .red h1 {
   color:#F00E0E;
+}
+
+/* Status and menu bar*/
+.status {
+height: 80px;
+left: 0px;
+right: 0px;
+top: 1px;
+width:375px;
+background: rgba(48, 48, 48, 0.88);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.status h6 {
+  background-color: transparent;
+  top: 40px;
+  padding-left: 72px;
+  font-size: 20px;
+  line-height: 23px;
+
+}
+
+.menu {
+position:relative;
+  top: 25px;
+  left: 16px;
+
+}
+
+.search {
+  position: relative;
+  top: -35px;
+  left: 292px;
+}
+
+.more {
+  position: relative;
+  left: 332px;
+  top: -52px
 }
